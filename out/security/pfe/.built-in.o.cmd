@@ -1,0 +1,1 @@
+cmd_security/pfe/built-in.o :=   rm -f security/pfe/built-in.o; llvm-ar rcSTPD security/pfe/built-in.o security/pfe/pfk.o security/pfe/pfk_kc.o security/pfe/pfk_ice.o security/pfe/pfk_ext4.o security/pfe/pfk_f2fs.o 

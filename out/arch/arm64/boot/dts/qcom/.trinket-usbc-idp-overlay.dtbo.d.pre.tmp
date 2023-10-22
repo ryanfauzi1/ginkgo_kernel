@@ -1,0 +1,27 @@
+arch/arm64/boot/dts/qcom/.trinket-usbc-idp-overlay.dtbo.dts.tmp: \
+  ../arch/arm64/boot/dts/qcom/trinket-usbc-idp-overlay.dts \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+  ../arch/arm64/boot/dts/qcom/trinket-idp.dtsi \
+  ../scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/iio/qcom,spmi-vadc.h \
+  ../arch/arm64/boot/dts/qcom/trinket-thermal-overlay.dtsi \
+  ../scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+  ../arch/arm64/boot/dts/qcom/trinket-sde-display.dtsi \
+  ../arch/arm64/boot/dts/qcom/dsi-panel-td4330-truly-singlemipi-fhd-cmd.dtsi \
+  ../arch/arm64/boot/dts/qcom/dsi-panel-td4330-truly-singlemipi-fhd-video.dtsi \
+  ../arch/arm64/boot/dts/qcom/dsi-panel-sim-video.dtsi \
+  ../arch/arm64/boot/dts/qcom/dsi-panel-hx83112a-truly-singlemipi-fhd-video.dtsi \
+  ../arch/arm64/boot/dts/qcom/dsi-panel-nt36672-truly-fhd-video.dtsi \
+  ../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-14nm-pll-clk.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-trinket.h \
+  ../arch/arm64/boot/dts/qcom/trinket-camera-sensor-idp.dtsi \
+  ../arch/arm64/boot/dts/qcom/smb1355.dtsi \
+  ../arch/arm64/boot/dts/qcom/qg-batterydata-ascent-3450mah.dtsi \
+  ../arch/arm64/boot/dts/qcom/qg-batterydata-mlp356477-2800mah.dtsi \
+  ../arch/arm64/boot/dts/qcom/trinket-usbc-idp.dtsi \
+  ../arch/arm64/boot/dts/qcom/trinket-audio-overlay.dtsi \
+  ../scripts/dtc/include-prefixes/dt-bindings/clock/qcom,audio-ext-clk.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/sound/audio-codec-port-types.h

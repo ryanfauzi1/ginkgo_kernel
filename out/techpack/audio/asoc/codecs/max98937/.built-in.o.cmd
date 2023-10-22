@@ -1,0 +1,1 @@
+cmd_techpack/audio/asoc/codecs/max98937/built-in.o :=   rm -f techpack/audio/asoc/codecs/max98937/built-in.o; llvm-ar rcSTPD techpack/audio/asoc/codecs/max98937/built-in.o techpack/audio/asoc/codecs/max98937/max98937_dlkm.o 

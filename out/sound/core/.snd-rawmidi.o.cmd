@@ -1,0 +1,1 @@
+cmd_sound/core/snd-rawmidi.o :=  rm -f sound/core/snd-rawmidi.o; llvm-ar rcSTPD sound/core/snd-rawmidi.o sound/core/rawmidi.o ; mv -f sound/core/snd-rawmidi.o sound/core/snd-rawmidi.o.tmp; llvm-ar rcsTD sound/core/snd-rawmidi.o $$(llvm-ar t sound/core/snd-rawmidi.o.tmp); rm -f sound/core/snd-rawmidi.o.tmp

@@ -1,0 +1,1 @@
+cmd_sound/usb/snd-usbmidi-lib.o :=  rm -f sound/usb/snd-usbmidi-lib.o; llvm-ar rcSTPD sound/usb/snd-usbmidi-lib.o sound/usb/midi.o ; mv -f sound/usb/snd-usbmidi-lib.o sound/usb/snd-usbmidi-lib.o.tmp; llvm-ar rcsTD sound/usb/snd-usbmidi-lib.o $$(llvm-ar t sound/usb/snd-usbmidi-lib.o.tmp); rm -f sound/usb/snd-usbmidi-lib.o.tmp

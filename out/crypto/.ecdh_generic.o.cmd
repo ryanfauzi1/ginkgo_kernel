@@ -1,0 +1,1 @@
+cmd_crypto/ecdh_generic.o :=  rm -f crypto/ecdh_generic.o; llvm-ar rcSTPD crypto/ecdh_generic.o crypto/ecc.o crypto/ecdh.o crypto/ecdh_helper.o ; mv -f crypto/ecdh_generic.o crypto/ecdh_generic.o.tmp; llvm-ar rcsTD crypto/ecdh_generic.o $$(llvm-ar t crypto/ecdh_generic.o.tmp); rm -f crypto/ecdh_generic.o.tmp

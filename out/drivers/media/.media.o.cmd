@@ -1,0 +1,1 @@
+cmd_drivers/media/media.o :=  rm -f drivers/media/media.o; llvm-ar rcSTPD drivers/media/media.o drivers/media/media-device.o drivers/media/media-devnode.o drivers/media/media-entity.o ; mv -f drivers/media/media.o drivers/media/media.o.tmp; llvm-ar rcsTD drivers/media/media.o $$(llvm-ar t drivers/media/media.o.tmp); rm -f drivers/media/media.o.tmp

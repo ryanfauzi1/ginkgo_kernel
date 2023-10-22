@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o :=   rm -f drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o; llvm-ar rcSTPD drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp_soc.o drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.o 

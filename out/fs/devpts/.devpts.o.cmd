@@ -1,0 +1,1 @@
+cmd_fs/devpts/devpts.o :=  rm -f fs/devpts/devpts.o; llvm-ar rcSTPD fs/devpts/devpts.o fs/devpts/inode.o ; mv -f fs/devpts/devpts.o fs/devpts/devpts.o.tmp; llvm-ar rcsTD fs/devpts/devpts.o $$(llvm-ar t fs/devpts/devpts.o.tmp); rm -f fs/devpts/devpts.o.tmp

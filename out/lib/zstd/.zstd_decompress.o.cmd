@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.o :=  rm -f lib/zstd/zstd_decompress.o; llvm-ar rcSTPD lib/zstd/zstd_decompress.o lib/zstd/huf_decompress.o lib/zstd/decompress.o ; mv -f lib/zstd/zstd_decompress.o lib/zstd/zstd_decompress.o.tmp; llvm-ar rcsTD lib/zstd/zstd_decompress.o $$(llvm-ar t lib/zstd/zstd_decompress.o.tmp); rm -f lib/zstd/zstd_decompress.o.tmp

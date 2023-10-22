@@ -1,0 +1,55 @@
+!<thin>
+//                                              466       `
+nf_conntrack_l3proto_ipv4.o/
+nf_conntrack_proto_icmp.o/
+nf_nat_l3proto_ipv4.o/
+nf_nat_proto_icmp.o/
+nf_defrag_ipv4.o/
+nf_socket_ipv4.o/
+nf_log_ipv4.o/
+nf_reject_ipv4.o/
+nf_nat_h323.o/
+nf_nat_pptp.o/
+nf_nat_masquerade_ipv4.o/
+nf_nat_proto_gre.o/
+ip_tables.o/
+iptable_filter.o/
+iptable_mangle.o/
+iptable_nat.o/
+iptable_raw.o/
+iptable_security.o/
+ipt_ah.o/
+ipt_rpfilter.o/
+ipt_MASQUERADE.o/
+ipt_REJECT.o/
+arp_tables.o/
+arpt_mangle.o/
+arptable_filter.o/
+nf_dup_ipv4.o/
+
+/0              0           0     0     644     39664     `
+/29             0           0     0     644     30872     `
+/56             0           0     0     644     32948     `
+/79             0           0     0     644     25788     `
+/100            0           0     0     644     26924     `
+/118            0           0     0     644     28604     `
+/136            0           0     0     644     33320     `
+/151            0           0     0     644     28260     `
+/169            0           0     0     644     36564     `
+/184            0           0     0     644     30640     `
+/199            0           0     0     644     30052     `
+/225            0           0     0     644     26488     `
+/245            0           0     0     644     72324     `
+/258            0           0     0     644     27032     `
+/276            0           0     0     644     26572     `
+/294            0           0     0     644     27140     `
+/309            0           0     0     644     26212     `
+/324            0           0     0     644     26284     `
+/344            0           0     0     644     21404     `
+/354            0           0     0     644     27596     `
+/370            0           0     0     644     26540     `
+/388            0           0     0     644     25972     `
+/402            0           0     0     644     64456     `
+/416            0           0     0     644     24488     `
+/431            0           0     0     644     21744     `
+/450            0           0     0     644     27548     `

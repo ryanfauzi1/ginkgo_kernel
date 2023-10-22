@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_compress.o :=  rm -f lib/lzo/lzo_compress.o; llvm-ar rcSTPD lib/lzo/lzo_compress.o lib/lzo/lzo1x_compress.o ; mv -f lib/lzo/lzo_compress.o lib/lzo/lzo_compress.o.tmp; llvm-ar rcsTD lib/lzo/lzo_compress.o $$(llvm-ar t lib/lzo/lzo_compress.o.tmp); rm -f lib/lzo/lzo_compress.o.tmp

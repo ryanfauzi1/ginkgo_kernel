@@ -1,0 +1,1 @@
+cmd_drivers/nvmem/nvmem_core.o :=  rm -f drivers/nvmem/nvmem_core.o; llvm-ar rcSTPD drivers/nvmem/nvmem_core.o drivers/nvmem/core.o ; mv -f drivers/nvmem/nvmem_core.o drivers/nvmem/nvmem_core.o.tmp; llvm-ar rcsTD drivers/nvmem/nvmem_core.o $$(llvm-ar t drivers/nvmem/nvmem_core.o.tmp); rm -f drivers/nvmem/nvmem_core.o.tmp

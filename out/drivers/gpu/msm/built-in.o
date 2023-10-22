@@ -1,0 +1,64 @@
+!<thin>
+//                                              494       `
+kgsl.o/
+kgsl_drawobj.o/
+kgsl_ioctl.o/
+kgsl_sharedmem.o/
+kgsl_pwrctrl.o/
+kgsl_pwrscale.o/
+kgsl_mmu.o/
+kgsl_events.o/
+kgsl_pool.o/
+kgsl_gmu_core.o/
+kgsl_gmu.o/
+kgsl_rgmu.o/
+kgsl_hfi.o/
+kgsl_iommu.o/
+kgsl_debugfs.o/
+kgsl_sync.o/
+kgsl_compat.o/
+adreno_ioctl.o/
+adreno_ringbuffer.o/
+adreno_drawctxt.o/
+adreno_dispatch.o/
+adreno_a6xx.o/
+adreno_a6xx_preempt.o/
+adreno_a6xx_gmu.o/
+adreno_a6xx_rgmu.o/
+adreno_sysfs.o/
+adreno.o/
+adreno_cp_parser.o/
+adreno_perfcounter.o/
+adreno_iommu.o/
+adreno_compat.o/
+/0              0           0     0     644     205592    `
+/8              0           0     0     644     53432     `
+/24             0           0     0     644     24576     `
+/38             0           0     0     644     65604     `
+/56             0           0     0     644     99760     `
+/72             0           0     0     644     34988     `
+/89             0           0     0     644     47828     `
+/101            0           0     0     644     40516     `
+/116            0           0     0     644     43692     `
+/129            0           0     0     644     25008     `
+/146            0           0     0     644     62032     `
+/158            0           0     0     644     26280     `
+/171            0           0     0     644     34956     `
+/183            0           0     0     644     92904     `
+/197            0           0     0     644     36244     `
+/213            0           0     0     644     62380     `
+/226            0           0     0     644     24860     `
+/241            0           0     0     644     22740     `
+/257            0           0     0     644     42700     `
+/278            0           0     0     644     38824     `
+/297            0           0     0     644     79988     `
+/316            0           0     0     644     77336     `
+/331            0           0     0     644     42364     `
+/354            0           0     0     644     45112     `
+/373            0           0     0     644     29348     `
+/393            0           0     0     644     41884     `
+/409            0           0     0     644     122728    `
+/419            0           0     0     644     27424     `
+/439            0           0     0     644     44960     `
+/461            0           0     0     644     38080     `
+/477            0           0     0     644     25244     `

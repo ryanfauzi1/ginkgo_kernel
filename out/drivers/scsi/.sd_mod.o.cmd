@@ -1,0 +1,1 @@
+cmd_drivers/scsi/sd_mod.o :=  rm -f drivers/scsi/sd_mod.o; llvm-ar rcSTPD drivers/scsi/sd_mod.o drivers/scsi/sd.o ; mv -f drivers/scsi/sd_mod.o drivers/scsi/sd_mod.o.tmp; llvm-ar rcsTD drivers/scsi/sd_mod.o $$(llvm-ar t drivers/scsi/sd_mod.o.tmp); rm -f drivers/scsi/sd_mod.o.tmp

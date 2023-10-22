@@ -1,0 +1,1 @@
+cmd_net/rfkill/rfkill.o :=  rm -f net/rfkill/rfkill.o; llvm-ar rcSTPD net/rfkill/rfkill.o net/rfkill/core.o ; mv -f net/rfkill/rfkill.o net/rfkill/rfkill.o.tmp; llvm-ar rcsTD net/rfkill/rfkill.o $$(llvm-ar t net/rfkill/rfkill.o.tmp); rm -f net/rfkill/rfkill.o.tmp

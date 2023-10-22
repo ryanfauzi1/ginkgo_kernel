@@ -1,0 +1,1 @@
+cmd_net/qrtr/qrtr-smd.o :=  rm -f net/qrtr/qrtr-smd.o; llvm-ar rcSTPD net/qrtr/qrtr-smd.o net/qrtr/smd.o ; mv -f net/qrtr/qrtr-smd.o net/qrtr/qrtr-smd.o.tmp; llvm-ar rcsTD net/qrtr/qrtr-smd.o $$(llvm-ar t net/qrtr/qrtr-smd.o.tmp); rm -f net/qrtr/qrtr-smd.o.tmp

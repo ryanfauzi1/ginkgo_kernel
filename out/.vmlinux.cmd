@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/bash ../scripts/link-vmlinux.sh ld.lld  --plugin-opt=O3 -maarch64linux --thinlto-cache-dir=.thinlto-cache --lto-O3 --no-undefined -X --fix-cortex-a53-843419 --build-id  --gc-sections  -X ;  true

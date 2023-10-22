@@ -1,0 +1,1 @@
+cmd_techpack/audio/asoc/codecs/tas2562/built-in.o :=   rm -f techpack/audio/asoc/codecs/tas2562/built-in.o; llvm-ar rcSTPD techpack/audio/asoc/codecs/tas2562/built-in.o techpack/audio/asoc/codecs/tas2562/tas2562_dlkm.o 

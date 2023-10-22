@@ -1,0 +1,1 @@
+cmd_arch/arm64/kernel/vdso/vdso.so.dbg := ld.lld  --plugin-opt=O3 -maarch64linux --thinlto-cache-dir=.thinlto-cache --lto-O3 -shared -nostdlib -soname=linux-vdso.so.1  --hash-style=sysv --build-id -n -T   arch/arm64/kernel/vdso/vdso.lds arch/arm64/kernel/vdso/vgettimeofday.o arch/arm64/kernel/vdso/note.o arch/arm64/kernel/vdso/sigreturn.o -o arch/arm64/kernel/vdso/vdso.so.dbg

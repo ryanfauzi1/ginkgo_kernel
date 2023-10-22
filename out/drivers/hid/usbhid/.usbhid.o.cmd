@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbhid.o :=  rm -f drivers/hid/usbhid/usbhid.o; llvm-ar rcSTPD drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/hid-core.o drivers/hid/usbhid/hid-quirks.o ; mv -f drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/usbhid.o.tmp; llvm-ar rcsTD drivers/hid/usbhid/usbhid.o $$(llvm-ar t drivers/hid/usbhid/usbhid.o.tmp); rm -f drivers/hid/usbhid/usbhid.o.tmp

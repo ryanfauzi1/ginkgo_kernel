@@ -1,0 +1,1 @@
+cmd_crypto/crypto_simd.o :=  rm -f crypto/crypto_simd.o; llvm-ar rcSTPD crypto/crypto_simd.o crypto/simd.o ; mv -f crypto/crypto_simd.o crypto/crypto_simd.o.tmp; llvm-ar rcsTD crypto/crypto_simd.o $$(llvm-ar t crypto/crypto_simd.o.tmp); rm -f crypto/crypto_simd.o.tmp

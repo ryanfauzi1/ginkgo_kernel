@@ -1,0 +1,1 @@
+cmd_crypto/cryptomgr.o :=  rm -f crypto/cryptomgr.o; llvm-ar rcSTPD crypto/cryptomgr.o crypto/algboss.o crypto/testmgr.o ; mv -f crypto/cryptomgr.o crypto/cryptomgr.o.tmp; llvm-ar rcsTD crypto/cryptomgr.o $$(llvm-ar t crypto/cryptomgr.o.tmp); rm -f crypto/cryptomgr.o.tmp

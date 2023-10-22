@@ -1,0 +1,1 @@
+cmd_sound/core/snd-hwdep.o :=  rm -f sound/core/snd-hwdep.o; llvm-ar rcSTPD sound/core/snd-hwdep.o sound/core/hwdep.o ; mv -f sound/core/snd-hwdep.o sound/core/snd-hwdep.o.tmp; llvm-ar rcsTD sound/core/snd-hwdep.o $$(llvm-ar t sound/core/snd-hwdep.o.tmp); rm -f sound/core/snd-hwdep.o.tmp

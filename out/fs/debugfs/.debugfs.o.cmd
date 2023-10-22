@@ -1,0 +1,1 @@
+cmd_fs/debugfs/debugfs.o :=  rm -f fs/debugfs/debugfs.o; llvm-ar rcSTPD fs/debugfs/debugfs.o fs/debugfs/inode.o fs/debugfs/file.o ; mv -f fs/debugfs/debugfs.o fs/debugfs/debugfs.o.tmp; llvm-ar rcsTD fs/debugfs/debugfs.o $$(llvm-ar t fs/debugfs/debugfs.o.tmp); rm -f fs/debugfs/debugfs.o.tmp

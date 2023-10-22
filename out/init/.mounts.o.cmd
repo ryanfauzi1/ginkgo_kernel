@@ -1,0 +1,1 @@
+cmd_init/mounts.o :=  rm -f init/mounts.o; llvm-ar rcSTPD init/mounts.o init/do_mounts.o init/do_mounts_rd.o init/do_mounts_initrd.o ; mv -f init/mounts.o init/mounts.o.tmp; llvm-ar rcsTD init/mounts.o $$(llvm-ar t init/mounts.o.tmp); rm -f init/mounts.o.tmp

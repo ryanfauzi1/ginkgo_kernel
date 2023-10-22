@@ -1,0 +1,1 @@
+cmd_drivers/nvmem/nvmem_qfprom.o :=  rm -f drivers/nvmem/nvmem_qfprom.o; llvm-ar rcSTPD drivers/nvmem/nvmem_qfprom.o drivers/nvmem/qfprom.o ; mv -f drivers/nvmem/nvmem_qfprom.o drivers/nvmem/nvmem_qfprom.o.tmp; llvm-ar rcsTD drivers/nvmem/nvmem_qfprom.o $$(llvm-ar t drivers/nvmem/nvmem_qfprom.o.tmp); rm -f drivers/nvmem/nvmem_qfprom.o.tmp

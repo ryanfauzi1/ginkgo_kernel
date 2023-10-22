@@ -1,0 +1,12 @@
+!<thin>
+//                                              86        `
+msm_jpeg_dev.o/
+msm_jpeg_sync.o/
+msm_jpeg_core.o/
+msm_jpeg_hw.o/
+msm_jpeg_platform.o/
+/0              0           0     0     644     25792     `
+/16             0           0     0     644     86608     `
+/33             0           0     0     644     29984     `
+/50             0           0     0     644     24276     `
+/65             0           0     0     644     31876     `

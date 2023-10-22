@@ -1,0 +1,172 @@
+!<thin>
+//                                              3008      `
+msm/sde/rotator/sde_rotator_dev.o/
+msm/sde/rotator/sde_rotator_core.o/
+msm/sde/rotator/sde_rotator_base.o/
+msm/sde/rotator/sde_rotator_formats.o/
+msm/sde/rotator/sde_rotator_util.o/
+msm/sde/rotator/sde_rotator_io_util.o/
+msm/sde/rotator/sde_rotator_smmu.o/
+msm/sde/rotator/sde_rotator_r1_wb.o/
+msm/sde/rotator/sde_rotator_r1_pipe.o/
+msm/sde/rotator/sde_rotator_r1_ctl.o/
+msm/sde/rotator/sde_rotator_r1.o/
+msm/sde/rotator/sde_rotator_r3.o/
+msm/sde/rotator/sde_rotator_sync.o/
+msm/sde/rotator/sde_rotator_debug.o/
+msm/sde/rotator/sde_rotator_r1_debug.o/
+msm/sde/rotator/sde_rotator_r3_debug.o/
+msm/vidc/msm_v4l2_vidc.o/
+msm/vidc/msm_v4l2_private.o/
+msm/vidc/msm_vidc_platform.o/
+msm/vidc/msm_vidc_common.o/
+msm/vidc/msm_vidc.o/
+msm/vidc/msm_vdec.o/
+msm/vidc/msm_venc.o/
+msm/vidc/msm_cvp.o/
+msm/vidc/msm_smem.o/
+msm/vidc/msm_vidc_debug.o/
+msm/vidc/msm_vidc_res_parse.o/
+msm/vidc/venus_hfi.o/
+msm/vidc/hfi_response_handler.o/
+msm/vidc/hfi_packetization.o/
+msm/vidc/vidc_hfi.o/
+msm/vidc/venus_boot.o/
+msm/vidc/msm_vidc_clocks.o/
+msm/vidc/governors/msm_vidc_dyn_gov.o/
+msm/vidc/governors/msm_vidc_ar50_dyn_gov.o/
+msm/camera_v2/common/msm_camera_io_util.o/
+msm/camera_v2/common/cam_smmu_api.o/
+msm/camera_v2/common/cam_hw_ops.o/
+msm/camera_v2/common/cam_soc_api.o/
+msm/camera_v2/common/msm_camera_tz_util.o/
+msm/camera_v2/common/msm_cam_cx_ipeak.o/
+msm/camera_v2/msm.o/
+msm/camera_v2/camera/camera.o/
+msm/camera_v2/msm_vb2/msm_vb2.o/
+msm/camera_v2/sensor/cci/msm_cci.o/
+msm/camera_v2/sensor/io/msm_camera_cci_i2c.o/
+msm/camera_v2/sensor/io/msm_camera_qup_i2c.o/
+msm/camera_v2/sensor/io/msm_camera_spi.o/
+msm/camera_v2/sensor/io/msm_camera_dt_util.o/
+msm/camera_v2/sensor/io/msm_camera_tz_i2c.o/
+msm/camera_v2/sensor/csiphy/msm_csiphy.o/
+msm/camera_v2/sensor/csid/msm_csid.o/
+msm/camera_v2/sensor/actuator/msm_actuator.o/
+msm/camera_v2/sensor/eeprom/msm_eeprom.o/
+msm/camera_v2/sensor/ois/msm_ois.o/
+msm/camera_v2/sensor/flash/msm_flash.o/
+msm/camera_v2/sensor/ir_led/msm_ir_led.o/
+msm/camera_v2/sensor/ir_cut/msm_ir_cut.o/
+msm/camera_v2/sensor/laser_led/msm_laser_led.o/
+msm/camera_v2/sensor/msm_sensor_init.o/
+msm/camera_v2/sensor/msm_sensor_driver.o/
+msm/camera_v2/sensor/msm_sensor.o/
+msm/camera_v2/pproc/cpp/msm_cpp_soc.o/
+msm/camera_v2/pproc/cpp/msm_cpp.o/
+msm/camera_v2/isp/msm_buf_mgr.o/
+msm/camera_v2/isp/msm_isp_util.o/
+msm/camera_v2/isp/msm_isp_axi_util.o/
+msm/camera_v2/isp/msm_isp_stats_util.o/
+msm/camera_v2/isp/msm_isp48.o/
+msm/camera_v2/isp/msm_isp47.o/
+msm/camera_v2/isp/msm_isp46.o/
+msm/camera_v2/isp/msm_isp44.o/
+msm/camera_v2/isp/msm_isp40.o/
+msm/camera_v2/isp/msm_isp.o/
+msm/camera_v2/ispif/msm_ispif.o/
+msm/camera_v2/jpeg_10/msm_jpeg_dev.o/
+msm/camera_v2/jpeg_10/msm_jpeg_sync.o/
+msm/camera_v2/jpeg_10/msm_jpeg_core.o/
+msm/camera_v2/jpeg_10/msm_jpeg_hw.o/
+msm/camera_v2/jpeg_10/msm_jpeg_platform.o/
+msm/camera_v2/jpeg_dma/msm_jpeg_dma_dev.o/
+msm/camera_v2/jpeg_dma/msm_jpeg_dma_hw.o/
+msm/camera_v2/msm_buf_mgr/msm_generic_buf_mgr.o/
+msm/camera_v2/fd/msm_fd_dev.o/
+msm/camera_v2/fd/msm_fd_hw.o/
+/0              0           0     0     644     103300    `
+/35             0           0     0     644     92660     `
+/71             0           0     0     644     36584     `
+/107            0           0     0     644     15760     `
+/146            0           0     0     644     41184     `
+/182            0           0     0     644     22900     `
+/221            0           0     0     644     33484     `
+/257            0           0     0     644     25264     `
+/294            0           0     0     644     20820     `
+/333            0           0     0     644     20244     `
+/371            0           0     0     644     29192     `
+/405            0           0     0     644     104076    `
+/439            0           0     0     644     27796     `
+/475            0           0     0     644     66152     `
+/512            0           0     0     644     13868     `
+/552            0           0     0     644     16196     `
+/592            0           0     0     644     50228     `
+/618            0           0     0     644     51472     `
+/647            0           0     0     644     22388     `
+/677            0           0     0     644     237012    `
+/705            0           0     0     644     87700     `
+/726            0           0     0     644     49892     `
+/747            0           0     0     644     84360     `
+/768            0           0     0     644     38736     `
+/788            0           0     0     644     35356     `
+/809            0           0     0     644     46072     `
+/836            0           0     0     644     73876     `
+/867            0           0     0     644     155196    `
+/889            0           0     0     644     45544     `
+/922            0           0     0     644     33804     `
+/952            0           0     0     644     15868     `
+/973            0           0     0     644     26160     `
+/996            0           0     0     644     58200     `
+/1024           0           0     0     644     36116     `
+/1063           0           0     0     644     34468     `
+/1107           0           0     0     644     34828     `
+/1150           0           0     0     644     65008     `
+/1187           0           0     0     644     17768     `
+/1222           0           0     0     644     38456     `
+/1258           0           0     0     644     14152     `
+/1301           0           0     0     644     3756      `
+/1342           0           0     0     644     90380     `
+/1363           0           0     0     644     43988     `
+/1394           0           0     0     644     62952     `
+/1427           0           0     0     644     66400     `
+/1463           0           0     0     644     30688     `
+/1509           0           0     0     644     24412     `
+/1555           0           0     0     644     33468     `
+/1597           0           0     0     644     56232     `
+/1643           0           0     0     644     29676     `
+/1688           0           0     0     644     58572     `
+/1730           0           0     0     644     52840     `
+/1768           0           0     0     644     64532     `
+/1814           0           0     0     644     61668     `
+/1856           0           0     0     644     49276     `
+/1892           0           0     0     644     52132     `
+/1932           0           0     0     644     29364     `
+/1974           0           0     0     644     33256     `
+/2016           0           0     0     644     36312     `
+/2064           0           0     0     644     25188     `
+/2104           0           0     0     644     68216     `
+/2146           0           0     0     644     56452     `
+/2181           0           0     0     644     27800     `
+/2220           0           0     0     644     159560    `
+/2255           0           0     0     644     61236     `
+/2288           0           0     0     644     100536    `
+/2322           0           0     0     644     142240    `
+/2360           0           0     0     644     60184     `
+/2400           0           0     0     644     42316     `
+/2431           0           0     0     644     100156    `
+/2462           0           0     0     644     75944     `
+/2493           0           0     0     644     79876     `
+/2524           0           0     0     644     91596     `
+/2555           0           0     0     644     48776     `
+/2584           0           0     0     644     70312     `
+/2617           0           0     0     644     25792     `
+/2655           0           0     0     644     86608     `
+/2694           0           0     0     644     29984     `
+/2733           0           0     0     644     24276     `
+/2770           0           0     0     644     31876     `
+/2813           0           0     0     644     56052     `
+/2856           0           0     0     644     44100     `
+/2898           0           0     0     644     45920     `
+/2947           0           0     0     644     51644     `
+/2978           0           0     0     644     44968     `

@@ -1,0 +1,101 @@
+!<thin>
+//                                              1886      `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/gpio_keys.o/
+touchscreen/lct_tp_info.o/
+touchscreen/lct_tp_selftest.o/
+touchscreen/lct_tp_gesture.o/
+touchscreen/lct_tp_grip_area.o/
+touchscreen/lct_tp_work.o/
+touchscreen/nt36xxx_spi_c3j/nt36xxx.o/
+touchscreen/nt36xxx_spi_c3j/nt36xxx_fw_update.o/
+touchscreen/nt36xxx_spi_c3j/nt36xxx_ext_proc.o/
+touchscreen/nt36xxx_spi_c3j/nt36xxx_mp_ctrlram.o/
+touchscreen/ft8719_spi_c3j/focaltech_core.o/
+touchscreen/ft8719_spi_c3j/focaltech_ex_fun.o/
+touchscreen/ft8719_spi_c3j/focaltech_ex_mode.o/
+touchscreen/ft8719_spi_c3j/focaltech_gesture.o/
+touchscreen/ft8719_spi_c3j/focaltech_esdcheck.o/
+touchscreen/ft8719_spi_c3j/focaltech_point_report_check.o/
+touchscreen/ft8719_spi_c3j/focaltech_spi.o/
+touchscreen/ft8719_spi_c3j/focaltech_flash.o/
+touchscreen/ft8719_spi_c3j/focaltech_test/focaltech_test.o/
+touchscreen/ft8719_spi_c3j/focaltech_test/focaltech_test_ini.o/
+touchscreen/ft8719_spi_c3j/focaltech_test/supported_ic/focaltech_test_ft8719.o/
+touchscreen/of_touchscreen.o/
+touchscreen/hxchipset/himax_ic_incell_core.o/
+touchscreen/hxchipset/himax_ic_HX83112.o/
+touchscreen/hxchipset/himax_common.o/
+touchscreen/hxchipset/himax_platform.o/
+touchscreen/hxchipset/himax_debug.o/
+touchscreen/synaptics_tcm/synaptics_tcm_i2c.o/
+touchscreen/synaptics_tcm/synaptics_tcm_core.o/
+touchscreen/synaptics_tcm/synaptics_tcm_touch.o/
+touchscreen/synaptics_tcm/synaptics_tcm_device.o/
+touchscreen/synaptics_tcm/synaptics_tcm_testing.o/
+touchscreen/synaptics_tcm/synaptics_tcm_reflash.o/
+touchscreen/synaptics_tcm/synaptics_tcm_recovery.o/
+touchscreen/synaptics_tcm/synaptics_tcm_zeroflash.o/
+touchscreen/synaptics_tcm/synaptics_tcm_diagnostics.o/
+misc/qpnp-power-on.o/
+misc/uinput.o/
+fingerprint/fpc1020/fpc1020_tee.o/
+fingerprint/gf3208/gf_spi.o/
+fingerprint/gf3208/platform.o/
+fingerprint/gf3208/netlink.o/
+
+/0              0           0     0     644     85016     `
+/9              0           0     0     644     13196     `
+/25             0           0     0     644     20488     `
+/37             0           0     0     644     19048     `
+/48             0           0     0     644     18532     `
+/62             0           0     0     644     67860     `
+/71             0           0     0     644     53472     `
+/89             0           0     0     644     35612     `
+/111            0           0     0     644     18068     `
+/138            0           0     0     644     22908     `
+/169            0           0     0     644     17188     `
+/199            0           0     0     644     18920     `
+/231            0           0     0     644     15800     `
+/258            0           0     0     644     68876     `
+/297            0           0     0     644     27676     `
+/346            0           0     0     644     28220     `
+/394            0           0     0     644     72076     `
+/444            0           0     0     644     59096     `
+/489            0           0     0     644     48252     `
+/536            0           0     0     644     20220     `
+/584            0           0     0     644     27740     `
+/632            0           0     0     644     1908      `
+/681            0           0     0     644     1932      `
+/740            0           0     0     644     28604     `
+/784            0           0     0     644     172408    `
+/830            0           0     0     644     91180     `
+/890            0           0     0     644     76448     `
+/954            0           0     0     644     38004     `
+/1034           0           0     0     644     15524     `
+/1064           0           0     0     644     68092     `
+/1110           0           0     0     644     20124     `
+/1152           0           0     0     644     40872     `
+/1190           0           0     0     644     41792     `
+/1230           0           0     0     644     108764    `
+/1267           0           0     0     644     30128     `
+/1314           0           0     0     644     104144    `
+/1362           0           0     0     644     39812     `
+/1411           0           0     0     644     33740     `
+/1461           0           0     0     644     62120     `
+/1512           0           0     0     644     63436     `
+/1563           0           0     0     644     31020     `
+/1615           0           0     0     644     36928     `
+/1668           0           0     0     644     29064     `
+/1723           0           0     0     644     73396     `
+/1745           0           0     0     644     45128     `
+/1760           0           0     0     644     31356     `
+/1795           0           0     0     644     30268     `
+/1824           0           0     0     644     16232     `
+/1855           0           0     0     644     25328     `

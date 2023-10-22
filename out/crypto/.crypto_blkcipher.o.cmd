@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o :=  rm -f crypto/crypto_blkcipher.o; llvm-ar rcSTPD crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o crypto/skcipher.o ; mv -f crypto/crypto_blkcipher.o crypto/crypto_blkcipher.o.tmp; llvm-ar rcsTD crypto/crypto_blkcipher.o $$(llvm-ar t crypto/crypto_blkcipher.o.tmp); rm -f crypto/crypto_blkcipher.o.tmp

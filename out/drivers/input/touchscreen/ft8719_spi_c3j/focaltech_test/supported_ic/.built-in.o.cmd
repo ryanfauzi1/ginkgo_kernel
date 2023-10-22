@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ft8719_spi_c3j/focaltech_test/supported_ic/built-in.o :=   rm -f drivers/input/touchscreen/ft8719_spi_c3j/focaltech_test/supported_ic/built-in.o; llvm-ar rcSTPD drivers/input/touchscreen/ft8719_spi_c3j/focaltech_test/supported_ic/built-in.o drivers/input/touchscreen/ft8719_spi_c3j/focaltech_test/supported_ic/focaltech_test_ft8719.o 

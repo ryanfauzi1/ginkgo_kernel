@@ -1,0 +1,25 @@
+!<thin>
+//                                              294       `
+focaltech_core.o/
+focaltech_ex_fun.o/
+focaltech_ex_mode.o/
+focaltech_gesture.o/
+focaltech_esdcheck.o/
+focaltech_point_report_check.o/
+focaltech_spi.o/
+focaltech_flash.o/
+focaltech_test/focaltech_test.o/
+focaltech_test/focaltech_test_ini.o/
+focaltech_test/supported_ic/focaltech_test_ft8719.o/
+
+/0              0           0     0     644     59096     `
+/18             0           0     0     644     48252     `
+/38             0           0     0     644     20220     `
+/59             0           0     0     644     27740     `
+/80             0           0     0     644     1908      `
+/102            0           0     0     644     1932      `
+/134            0           0     0     644     28604     `
+/151            0           0     0     644     172408    `
+/170            0           0     0     644     91180     `
+/203            0           0     0     644     76448     `
+/240            0           0     0     644     38004     `

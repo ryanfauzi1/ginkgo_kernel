@@ -1,0 +1,19 @@
+!<thin>
+//                                              126       `
+bolero-cdc.o/
+bolero-cdc-utils.o/
+bolero-cdc-regmap.o/
+bolero-cdc-tables.o/
+wsa-macro.o/
+va-macro.o/
+tx-macro.o/
+rx-macro.o/
+
+/0              0           0     0     644     40296     `
+/14             0           0     0     644     21096     `
+/34             0           0     0     644     19200     `
+/55             0           0     0     644     4928      `
+/76             0           0     0     644     78700     `
+/89             0           0     0     644     61808     `
+/101            0           0     0     644     70068     `
+/113            0           0     0     644     100768    `

@@ -1,0 +1,1 @@
+cmd_drivers/dax/dax.o :=  rm -f drivers/dax/dax.o; llvm-ar rcSTPD drivers/dax/dax.o drivers/dax/super.o ; mv -f drivers/dax/dax.o drivers/dax/dax.o.tmp; llvm-ar rcsTD drivers/dax/dax.o $$(llvm-ar t drivers/dax/dax.o.tmp); rm -f drivers/dax/dax.o.tmp

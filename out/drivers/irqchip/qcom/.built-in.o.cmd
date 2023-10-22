@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/qcom/built-in.o :=   rm -f drivers/irqchip/qcom/built-in.o; llvm-ar rcSTPD drivers/irqchip/qcom/built-in.o drivers/irqchip/qcom/mpm.o drivers/irqchip/qcom/mpm-8937.o drivers/irqchip/qcom/mpm-qcs405.o drivers/irqchip/qcom/mpm-trinket.o 

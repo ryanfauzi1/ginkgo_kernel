@@ -1,0 +1,17 @@
+!<thin>
+//                                              116       `
+rpmsg_core.o/
+rpmsg_char.o/
+qcom_glink_rpm.o/
+qcom_glink_native.o/
+qcom_glink_smem.o/
+qcom_glink_spi.o/
+rpm-smd.o/
+
+/0              0           0     0     644     25912     `
+/14             0           0     0     644     31284     `
+/28             0           0     0     644     21348     `
+/46             0           0     0     644     76452     `
+/67             0           0     0     644     17852     `
+/86             0           0     0     644     61020     `
+/104            0           0     0     644     56668     `

@@ -1,0 +1,71 @@
+!<thin>
+//                                              498       `
+ipahal/ipahal.o/
+ipahal/ipahal_reg.o/
+ipahal/ipahal_fltrt.o/
+ipahal/ipahal_hw_stats.o/
+ipahal/ipahal_nat.o/
+ipa.o/
+ipa_debugfs.o/
+ipa_hdr.o/
+ipa_flt.o/
+ipa_rt.o/
+ipa_dp.o/
+ipa_client.o/
+ipa_utils.o/
+ipa_nat.o/
+ipa_intf.o/
+teth_bridge.o/
+ipa_interrupts.o/
+ipa_uc.o/
+ipa_uc_wdi.o/
+ipa_dma.o/
+ipa_uc_mhi.o/
+ipa_mhi.o/
+ipa_uc_ntn.o/
+ipa_hw_stats.o/
+ipa_pm.o/
+ipa_wdi3_i.o/
+ipa_odl.o/
+ipa_wigig_i.o/
+ipa_qdss.o/
+ipa_eth_i.o/
+rmnet_ipa.o/
+ipa_qmi_service_v01.o/
+ipa_qmi_service.o/
+rmnet_ipa_fd_ioctl.o/
+
+/0              0           0     0     644     66876     `
+/17             0           0     0     644     88208     `
+/38             0           0     0     644     123096    `
+/61             0           0     0     644     43648     `
+/87             0           0     0     644     40296     `
+/108            0           0     0     644     272144    `
+/115            0           0     0     644     122104    `
+/130            0           0     0     644     63948     `
+/141            0           0     0     644     76476     `
+/152            0           0     0     644     89516     `
+/162            0           0     0     644     160480    `
+/172            0           0     0     644     76676     `
+/186            0           0     0     644     198236    `
+/199            0           0     0     644     73608     `
+/210            0           0     0     644     53536     `
+/222            0           0     0     644     30364     `
+/237            0           0     0     644     42164     `
+/255            0           0     0     644     54168     `
+/265            0           0     0     644     87720     `
+/279            0           0     0     644     72304     `
+/290            0           0     0     644     46016     `
+/304            0           0     0     644     48360     `
+/315            0           0     0     644     46252     `
+/329            0           0     0     644     75620     `
+/345            0           0     0     644     73800     `
+/355            0           0     0     644     54060     `
+/369            0           0     0     644     50484     `
+/380            0           0     0     644     64104     `
+/395            0           0     0     644     36952     `
+/407            0           0     0     644     49968     `
+/420            0           0     0     644     163540    `
+/433            0           0     0     644     13528     `
+/456            0           0     0     644     86580     `
+/475            0           0     0     644     48096     `

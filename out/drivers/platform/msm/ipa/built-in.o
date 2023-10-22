@@ -1,0 +1,101 @@
+!<thin>
+//                                              1080      `
+ipa_v3/ipahal/ipahal.o/
+ipa_v3/ipahal/ipahal_reg.o/
+ipa_v3/ipahal/ipahal_fltrt.o/
+ipa_v3/ipahal/ipahal_hw_stats.o/
+ipa_v3/ipahal/ipahal_nat.o/
+ipa_v3/ipa.o/
+ipa_v3/ipa_debugfs.o/
+ipa_v3/ipa_hdr.o/
+ipa_v3/ipa_flt.o/
+ipa_v3/ipa_rt.o/
+ipa_v3/ipa_dp.o/
+ipa_v3/ipa_client.o/
+ipa_v3/ipa_utils.o/
+ipa_v3/ipa_nat.o/
+ipa_v3/ipa_intf.o/
+ipa_v3/teth_bridge.o/
+ipa_v3/ipa_interrupts.o/
+ipa_v3/ipa_uc.o/
+ipa_v3/ipa_uc_wdi.o/
+ipa_v3/ipa_dma.o/
+ipa_v3/ipa_uc_mhi.o/
+ipa_v3/ipa_mhi.o/
+ipa_v3/ipa_uc_ntn.o/
+ipa_v3/ipa_hw_stats.o/
+ipa_v3/ipa_pm.o/
+ipa_v3/ipa_wdi3_i.o/
+ipa_v3/ipa_odl.o/
+ipa_v3/ipa_wigig_i.o/
+ipa_v3/ipa_qdss.o/
+ipa_v3/ipa_eth_i.o/
+ipa_v3/rmnet_ipa.o/
+ipa_v3/ipa_qmi_service_v01.o/
+ipa_v3/ipa_qmi_service.o/
+ipa_v3/rmnet_ipa_fd_ioctl.o/
+ipa_clients/ipa_usb.o/
+ipa_clients/odu_bridge.o/
+ipa_clients/ipa_mhi_client.o/
+ipa_clients/ipa_uc_offload.o/
+ipa_clients/ipa_wdi3.o/
+ipa_clients/ipa_gsb.o/
+ipa_clients/ipa_wigig.o/
+ipa_clients/ipa_eth.o/
+ipa_clients/rndis_ipa.o/
+ipa_api.o/
+ipa_rm.o/
+ipa_rm_dependency_graph.o/
+ipa_rm_peers_list.o/
+ipa_rm_resource.o/
+ipa_rm_inactivity_timer.o/
+
+/0              0           0     0     644     66876     `
+/24             0           0     0     644     88208     `
+/52             0           0     0     644     123096    `
+/82             0           0     0     644     43648     `
+/115            0           0     0     644     40296     `
+/143            0           0     0     644     272144    `
+/157            0           0     0     644     122104    `
+/179            0           0     0     644     63948     `
+/197            0           0     0     644     76476     `
+/215            0           0     0     644     89516     `
+/232            0           0     0     644     160480    `
+/249            0           0     0     644     76676     `
+/270            0           0     0     644     198236    `
+/290            0           0     0     644     73608     `
+/308            0           0     0     644     53536     `
+/327            0           0     0     644     30364     `
+/349            0           0     0     644     42164     `
+/374            0           0     0     644     54168     `
+/391            0           0     0     644     87720     `
+/412            0           0     0     644     72304     `
+/430            0           0     0     644     46016     `
+/451            0           0     0     644     48360     `
+/469            0           0     0     644     46252     `
+/490            0           0     0     644     75620     `
+/513            0           0     0     644     73800     `
+/530            0           0     0     644     54060     `
+/551            0           0     0     644     50484     `
+/569            0           0     0     644     64104     `
+/591            0           0     0     644     36952     `
+/610            0           0     0     644     49968     `
+/630            0           0     0     644     163540    `
+/650            0           0     0     644     13528     `
+/680            0           0     0     644     86580     `
+/706            0           0     0     644     48096     `
+/735            0           0     0     644     113716    `
+/758            0           0     0     644     56268     `
+/784            0           0     0     644     122736    `
+/814            0           0     0     644     30812     `
+/844            0           0     0     644     57972     `
+/868            0           0     0     644     61644     `
+/891            0           0     0     644     60072     `
+/916            0           0     0     644     58712     `
+/939            0           0     0     644     78080     `
+/964            0           0     0     644     172228    `
+/975            0           0     0     644     73136     `
+/985            0           0     0     644     7608      `
+/1012           0           0     0     644     8332      `
+/1033           0           0     0     644     21164     `
+/1052           0           0     0     644     32336     `

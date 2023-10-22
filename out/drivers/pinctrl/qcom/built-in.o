@@ -1,0 +1,11 @@
+!<thin>
+//                                              76        `
+pinctrl-msm.o/
+pinctrl-spmi-gpio.o/
+pinctrl-spmi-mpp.o/
+pinctrl-trinket.o/
+
+/0              0           0     0     644     77564     `
+/15             0           0     0     644     43136     `
+/36             0           0     0     644     32048     `
+/56             0           0     0     644     102372    `

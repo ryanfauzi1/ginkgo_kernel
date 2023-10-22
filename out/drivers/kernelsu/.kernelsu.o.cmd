@@ -1,0 +1,1 @@
+cmd_drivers/kernelsu/kernelsu.o :=  rm -f drivers/kernelsu/kernelsu.o; llvm-ar rcSTPD drivers/kernelsu/kernelsu.o drivers/kernelsu/apk_sign.o ; mv -f drivers/kernelsu/kernelsu.o drivers/kernelsu/kernelsu.o.tmp; llvm-ar rcsTD drivers/kernelsu/kernelsu.o $$(llvm-ar t drivers/kernelsu/kernelsu.o.tmp); rm -f drivers/kernelsu/kernelsu.o.tmp

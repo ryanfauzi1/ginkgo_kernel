@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/asix.o :=  rm -f drivers/net/usb/asix.o; llvm-ar rcSTPD drivers/net/usb/asix.o drivers/net/usb/asix_devices.o drivers/net/usb/asix_common.o drivers/net/usb/ax88172a.o ; mv -f drivers/net/usb/asix.o drivers/net/usb/asix.o.tmp; llvm-ar rcsTD drivers/net/usb/asix.o $$(llvm-ar t drivers/net/usb/asix.o.tmp); rm -f drivers/net/usb/asix.o.tmp

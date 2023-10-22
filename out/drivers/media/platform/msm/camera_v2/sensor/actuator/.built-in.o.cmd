@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/sensor/actuator/built-in.o :=   rm -f drivers/media/platform/msm/camera_v2/sensor/actuator/built-in.o; llvm-ar rcSTPD drivers/media/platform/msm/camera_v2/sensor/actuator/built-in.o drivers/media/platform/msm/camera_v2/sensor/actuator/msm_actuator.o 

@@ -1,0 +1,47 @@
+!<thin>
+//                                              574       `
+reset/msm-poweroff.o/
+reset/xgene-reboot.o/
+reset/syscon-reboot.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/qcom/qpnp-qg.o/
+supply/qcom/pmic-voter.o/
+supply/qcom/qg-util.o/
+supply/qcom/qg-soc.o/
+supply/qcom/qg-sdam.o/
+supply/qcom/qg-battery-profile.o/
+supply/qcom/qg-profile-lib.o/
+supply/qcom/fg-alg.o/
+supply/qcom/smb1355-charger.o/
+supply/qcom/step-chg-jeita.o/
+supply/qcom/battery.o/
+supply/qcom/qpnp-smb5.o/
+supply/qcom/smb5-lib.o/
+supply/qcom/storm-watch.o/
+supply/qcom/schgm-flash.o/
+supply/qcom/smb1390-charger.o/
+
+/0              0           0     0     644     32628     `
+/22             0           0     0     644     13868     `
+/44             0           0     0     644     13912     `
+/67             0           0     0     644     38852     `
+/95             0           0     0     644     44600     `
+/124            0           0     0     644     13684     `
+/152            0           0     0     644     142364    `
+/175            0           0     0     644     26752     `
+/201            0           0     0     644     23280     `
+/224            0           0     0     644     28056     `
+/246            0           0     0     644     21112     `
+/269            0           0     0     644     35236     `
+/303            0           0     0     644     7308      `
+/333            0           0     0     644     41888     `
+/355            0           0     0     644     47300     `
+/386            0           0     0     644     29740     `
+/416            0           0     0     644     52824     `
+/439            0           0     0     644     97820     `
+/464            0           0     0     644     204816    `
+/488            0           0     0     644     3548      `
+/515            0           0     0     644     19484     `
+/542            0           0     0     644     39140     `

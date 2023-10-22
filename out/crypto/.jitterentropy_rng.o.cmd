@@ -1,0 +1,1 @@
+cmd_crypto/jitterentropy_rng.o :=  rm -f crypto/jitterentropy_rng.o; llvm-ar rcSTPD crypto/jitterentropy_rng.o crypto/jitterentropy.o crypto/jitterentropy-kcapi.o ; mv -f crypto/jitterentropy_rng.o crypto/jitterentropy_rng.o.tmp; llvm-ar rcsTD crypto/jitterentropy_rng.o $$(llvm-ar t crypto/jitterentropy_rng.o.tmp); rm -f crypto/jitterentropy_rng.o.tmp

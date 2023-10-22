@@ -1,0 +1,1 @@
+cmd_techpack/audio/dsp/q6_pdr_dlkm.o :=  rm -f techpack/audio/dsp/q6_pdr_dlkm.o; llvm-ar rcSTPD techpack/audio/dsp/q6_pdr_dlkm.o techpack/audio/dsp/audio_pdr.o ; mv -f techpack/audio/dsp/q6_pdr_dlkm.o techpack/audio/dsp/q6_pdr_dlkm.o.tmp; llvm-ar rcsTD techpack/audio/dsp/q6_pdr_dlkm.o $$(llvm-ar t techpack/audio/dsp/q6_pdr_dlkm.o.tmp); rm -f techpack/audio/dsp/q6_pdr_dlkm.o.tmp

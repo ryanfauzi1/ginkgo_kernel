@@ -1,0 +1,40 @@
+!<thin>
+//                                              344       `
+msm_v4l2_vidc.o/
+msm_v4l2_private.o/
+msm_vidc_platform.o/
+msm_vidc_common.o/
+msm_vidc.o/
+msm_vdec.o/
+msm_venc.o/
+msm_cvp.o/
+msm_smem.o/
+msm_vidc_debug.o/
+msm_vidc_res_parse.o/
+venus_hfi.o/
+hfi_response_handler.o/
+hfi_packetization.o/
+vidc_hfi.o/
+venus_boot.o/
+msm_vidc_clocks.o/
+governors/msm_vidc_dyn_gov.o/
+governors/msm_vidc_ar50_dyn_gov.o/
+/0              0           0     0     644     50228     `
+/17             0           0     0     644     51472     `
+/37             0           0     0     644     22388     `
+/58             0           0     0     644     237012    `
+/77             0           0     0     644     87700     `
+/89             0           0     0     644     49892     `
+/101            0           0     0     644     84360     `
+/113            0           0     0     644     38736     `
+/124            0           0     0     644     35356     `
+/136            0           0     0     644     46072     `
+/154            0           0     0     644     73876     `
+/176            0           0     0     644     155196    `
+/189            0           0     0     644     45544     `
+/213            0           0     0     644     33804     `
+/234            0           0     0     644     15868     `
+/246            0           0     0     644     26160     `
+/260            0           0     0     644     58200     `
+/279            0           0     0     644     36116     `
+/309            0           0     0     644     34468     `

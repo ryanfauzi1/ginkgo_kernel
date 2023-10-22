@@ -1,0 +1,1 @@
+cmd_fs/exportfs/exportfs.o :=  rm -f fs/exportfs/exportfs.o; llvm-ar rcSTPD fs/exportfs/exportfs.o fs/exportfs/expfs.o ; mv -f fs/exportfs/exportfs.o fs/exportfs/exportfs.o.tmp; llvm-ar rcsTD fs/exportfs/exportfs.o $$(llvm-ar t fs/exportfs/exportfs.o.tmp); rm -f fs/exportfs/exportfs.o.tmp

@@ -1,0 +1,1 @@
+cmd_drivers/block/zram/zram.o :=  rm -f drivers/block/zram/zram.o; llvm-ar rcSTPD drivers/block/zram/zram.o drivers/block/zram/zcomp.o drivers/block/zram/zram_drv.o drivers/block/zram/zram_dedup.o ; mv -f drivers/block/zram/zram.o drivers/block/zram/zram.o.tmp; llvm-ar rcsTD drivers/block/zram/zram.o $$(llvm-ar t drivers/block/zram/zram.o.tmp); rm -f drivers/block/zram/zram.o.tmp

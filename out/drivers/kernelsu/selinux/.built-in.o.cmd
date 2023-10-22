@@ -1,0 +1,1 @@
+cmd_drivers/kernelsu/selinux/built-in.o :=   rm -f drivers/kernelsu/selinux/built-in.o; llvm-ar rcSTPD drivers/kernelsu/selinux/built-in.o drivers/kernelsu/selinux/selinux.o drivers/kernelsu/selinux/sepolicy.o drivers/kernelsu/selinux/rules.o 

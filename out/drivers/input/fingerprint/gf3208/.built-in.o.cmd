@@ -1,0 +1,1 @@
+cmd_drivers/input/fingerprint/gf3208/built-in.o :=   rm -f drivers/input/fingerprint/gf3208/built-in.o; llvm-ar rcSTPD drivers/input/fingerprint/gf3208/built-in.o drivers/input/fingerprint/gf3208/gf_spi.o drivers/input/fingerprint/gf3208/platform.o drivers/input/fingerprint/gf3208/netlink.o 

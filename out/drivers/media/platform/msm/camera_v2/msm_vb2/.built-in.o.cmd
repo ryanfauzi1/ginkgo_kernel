@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/msm_vb2/built-in.o :=   rm -f drivers/media/platform/msm/camera_v2/msm_vb2/built-in.o; llvm-ar rcSTPD drivers/media/platform/msm/camera_v2/msm_vb2/built-in.o drivers/media/platform/msm/camera_v2/msm_vb2/msm_vb2.o 

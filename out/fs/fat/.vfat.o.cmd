@@ -1,0 +1,1 @@
+cmd_fs/fat/vfat.o :=  rm -f fs/fat/vfat.o; llvm-ar rcSTPD fs/fat/vfat.o fs/fat/namei_vfat.o ; mv -f fs/fat/vfat.o fs/fat/vfat.o.tmp; llvm-ar rcsTD fs/fat/vfat.o $$(llvm-ar t fs/fat/vfat.o.tmp); rm -f fs/fat/vfat.o.tmp

@@ -1,0 +1,35 @@
+!<thin>
+//                                              230       `
+qpnp-qg.o/
+pmic-voter.o/
+qg-util.o/
+qg-soc.o/
+qg-sdam.o/
+qg-battery-profile.o/
+qg-profile-lib.o/
+fg-alg.o/
+smb1355-charger.o/
+step-chg-jeita.o/
+battery.o/
+qpnp-smb5.o/
+smb5-lib.o/
+storm-watch.o/
+schgm-flash.o/
+smb1390-charger.o/
+
+/0              0           0     0     644     142364    `
+/11             0           0     0     644     26752     `
+/25             0           0     0     644     23280     `
+/36             0           0     0     644     28056     `
+/46             0           0     0     644     21112     `
+/57             0           0     0     644     35236     `
+/79             0           0     0     644     7308      `
+/97             0           0     0     644     41888     `
+/107            0           0     0     644     47300     `
+/126            0           0     0     644     29740     `
+/144            0           0     0     644     52824     `
+/155            0           0     0     644     97820     `
+/168            0           0     0     644     204816    `
+/180            0           0     0     644     3548      `
+/195            0           0     0     644     19484     `
+/210            0           0     0     644     39140     `
