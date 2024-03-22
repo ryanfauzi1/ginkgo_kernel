@@ -49,13 +49,12 @@ echo "**** Kernel defconfig is set to $KERNEL_DEFCONFIG ****"
 echo -e "$blue***********************************************"
 echo "          BUILDING KERNEL          "
 echo -e "***********************************************$nocol"
-make $KERNEL_DEFCONFIG O=out
-make -j$(nproc --all) O=out \
-                              ARCH=arm64 \
-                              CC=clang \
-                              CROSS_COMPILE=aarch64-linux-gnu- \
-                              CROSS_COMPILE_ARM32=arm-linux-gnueabi Image.gz-dtb dtbo.img
-
+#make $KERNEL_DEFCONFIG O=out
+make -j$(nproc --all) O=out ARCH=arm64 $KERNEL_DEFCONFIG
+make -j$(nproc --all) ARCH=arm64 O=out \
+                          CROSS_COMPILE=aarch64-linux-gnu- \
+                          CROSS_COMPILE_ARM32=arm-linux-gnueabi- \
+                          CROSS_COMPILE_COMPAT=arm-linux-gnueabi-
 exit
 if [ -f "out/arch/arm64/boot/Image.gz-dtb" ] && [ -f "out/arch/arm64/boot/dtbo.img" ]; then
 echo -e "\nKernel compiled succesfully! Zipping up...\n"
