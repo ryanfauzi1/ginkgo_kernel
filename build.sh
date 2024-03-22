@@ -14,7 +14,7 @@ echo "Cloning failed! Aborting..."
 exit 1
 fi
 fi
-
+chmod +x /root/proton-clang/bin/clang
 export PATH="/root/proton-clang/bin:$PATH"
 export ARCH=arm64
 export SUBARCH=arm64
