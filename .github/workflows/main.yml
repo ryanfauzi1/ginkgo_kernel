@@ -22,6 +22,6 @@ jobs:
           libghc-libyaml-dev libyaml-dev glibc-source \
     - name: ready compile...
       run: |
-          curl -s https://raw.githubusercontent.com/Rx-de/ginkgo_kernel/main/build.sh > build.sh 
+          curl -s https://raw.githubusercontent.com/ryanfauzi1/ginkgo_kernel/main/build.sh > build.sh 
           chmod +x build.sh 
           bash build.sh
