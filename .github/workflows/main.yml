@@ -5,11 +5,11 @@ on:
   
 jobs:
    build-project:
-    runs-on: ubuntu 20.04
+    runs-on: ubuntu latest
 
     steps:
     - name: setting configurasi
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: setup environment
       run: |
